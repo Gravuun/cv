@@ -1,0 +1,155 @@
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Caveat', cursive;
+*/
+
+a {
+  color: #11999E;
+  font-family: 'Crimson Text', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.75em;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 150px auto 0 auto;
+  font-family: 'Caveat', cursive;
+  font-size: 7.5rem;
+  /*
+    16px = 100% = 1em
+    em is inherited, so if the body had a font-size of 2em, the h1 would be
+    equivaleent to 10em.
+    rem ignores inheritence and changes against 1 em
+  */
+  line-height: 2;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Dosis', sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Dosis', sans-serif;
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-style: dotted none none none;
+  border-width: 10px;
+  margin: 100px auto;
+  width: 5%;
+}
+
+p {
+    line-height: 2;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin: 75px auto 0;
+  padding-top: 30px;
+}
+
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Dosis', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 15px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.btn:hover {
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+   text-decoration: none;
+}
+
+.contact-msg {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.credit {
+  color: #EAF6F6;
+  font-size: 0.9rem;
+}
+
+.gamepad {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.icon {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.selfie {
+  border-radius: 100%;
+  width: 250px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
